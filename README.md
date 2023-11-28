@@ -6,7 +6,7 @@ It's a repository for a prototype made in between a day and another. Feel free t
 
 ##### How to improve it?
 
-Create a fork of [unity-swordhero](https://github.com/joaokucera/unity-tile-blast/fork). 
+Create a fork of [unity-tile-blast](https://github.com/joaokucera/unity-tile-blast/fork). 
 
 Did you change it? [submit a pull request](https://github.com/joaokucera/unity-tile-blast/pull/new/master).
 
