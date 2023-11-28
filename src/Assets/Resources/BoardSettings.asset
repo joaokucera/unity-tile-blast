@@ -1,0 +1,203 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7931cae7dcb140f2ae2e7674ed92e208, type: 3}
+  m_Name: BoardSettings
+  m_EditorClassIdentifier: 
+  width: 5
+  height: 7
+  collectConnectBoardTilesDelayTime: 0.5
+  boardTileSetPositionDuration: 0.5
+  initialBoardLayout:
+    rows:
+    - columns:
+      - rid: 1669607952040591430
+      - rid: 1669607952040591431
+      - rid: 1669607952040591432
+      - rid: 1669607952040591433
+      - rid: 1669607952040591434
+      - rid: 1669607952040591435
+      - rid: 1669607952040591436
+    - columns:
+      - rid: 1669607952040591437
+      - rid: 1669607952040591438
+      - rid: 1669607952040591439
+      - rid: 1669607952040591440
+      - rid: 1669607952040591441
+      - rid: 1669607952040591442
+      - rid: 1669607952040591443
+    - columns:
+      - rid: 1669607952040591444
+      - rid: 1669607952040591445
+      - rid: 1669607952040591446
+      - rid: 1669607952040591447
+      - rid: 1669607952040591448
+      - rid: 1669607952040591449
+      - rid: 1669607952040591450
+    - columns:
+      - rid: 1669607952040591451
+      - rid: 1669607952040591452
+      - rid: 1669607952040591453
+      - rid: 1669607952040591454
+      - rid: 1669607952040591455
+      - rid: 1669607952040591456
+      - rid: 1669607952040591457
+    - columns:
+      - rid: 1669607952040591458
+      - rid: 1669607952040591459
+      - rid: 1669607952040591460
+      - rid: 1669607952040591461
+      - rid: 1669607952040591462
+      - rid: 1669607952040591463
+      - rid: 1669607952040591464
+  references:
+    version: 2
+    RefIds:
+    - rid: 1669607952040591430
+      type: {class: BoardLayoutColumn, ns: Board, asm: Assembly-CSharp}
+      data:
+        tileValue: 2
+    - rid: 1669607952040591431
+      type: {class: BoardLayoutColumn, ns: Board, asm: Assembly-CSharp}
+      data:
+        tileValue: 3
+    - rid: 1669607952040591432
+      type: {class: BoardLayoutColumn, ns: Board, asm: Assembly-CSharp}
+      data:
+        tileValue: 5
+    - rid: 1669607952040591433
+      type: {class: BoardLayoutColumn, ns: Board, asm: Assembly-CSharp}
+      data:
+        tileValue: 2
+    - rid: 1669607952040591434
+      type: {class: BoardLayoutColumn, ns: Board, asm: Assembly-CSharp}
+      data:
+        tileValue: 5
+    - rid: 1669607952040591435
+      type: {class: BoardLayoutColumn, ns: Board, asm: Assembly-CSharp}
+      data:
+        tileValue: 0
+    - rid: 1669607952040591436
+      type: {class: BoardLayoutColumn, ns: Board, asm: Assembly-CSharp}
+      data:
+        tileValue: 2
+    - rid: 1669607952040591437
+      type: {class: BoardLayoutColumn, ns: Board, asm: Assembly-CSharp}
+      data:
+        tileValue: 0
+    - rid: 1669607952040591438
+      type: {class: BoardLayoutColumn, ns: Board, asm: Assembly-CSharp}
+      data:
+        tileValue: 3
+    - rid: 1669607952040591439
+      type: {class: BoardLayoutColumn, ns: Board, asm: Assembly-CSharp}
+      data:
+        tileValue: 0
+    - rid: 1669607952040591440
+      type: {class: BoardLayoutColumn, ns: Board, asm: Assembly-CSharp}
+      data:
+        tileValue: 0
+    - rid: 1669607952040591441
+      type: {class: BoardLayoutColumn, ns: Board, asm: Assembly-CSharp}
+      data:
+        tileValue: 1
+    - rid: 1669607952040591442
+      type: {class: BoardLayoutColumn, ns: Board, asm: Assembly-CSharp}
+      data:
+        tileValue: 4
+    - rid: 1669607952040591443
+      type: {class: BoardLayoutColumn, ns: Board, asm: Assembly-CSharp}
+      data:
+        tileValue: 5
+    - rid: 1669607952040591444
+      type: {class: BoardLayoutColumn, ns: Board, asm: Assembly-CSharp}
+      data:
+        tileValue: 4
+    - rid: 1669607952040591445
+      type: {class: BoardLayoutColumn, ns: Board, asm: Assembly-CSharp}
+      data:
+        tileValue: 5
+    - rid: 1669607952040591446
+      type: {class: BoardLayoutColumn, ns: Board, asm: Assembly-CSharp}
+      data:
+        tileValue: 0
+    - rid: 1669607952040591447
+      type: {class: BoardLayoutColumn, ns: Board, asm: Assembly-CSharp}
+      data:
+        tileValue: 2
+    - rid: 1669607952040591448
+      type: {class: BoardLayoutColumn, ns: Board, asm: Assembly-CSharp}
+      data:
+        tileValue: 1
+    - rid: 1669607952040591449
+      type: {class: BoardLayoutColumn, ns: Board, asm: Assembly-CSharp}
+      data:
+        tileValue: 3
+    - rid: 1669607952040591450
+      type: {class: BoardLayoutColumn, ns: Board, asm: Assembly-CSharp}
+      data:
+        tileValue: 4
+    - rid: 1669607952040591451
+      type: {class: BoardLayoutColumn, ns: Board, asm: Assembly-CSharp}
+      data:
+        tileValue: 1
+    - rid: 1669607952040591452
+      type: {class: BoardLayoutColumn, ns: Board, asm: Assembly-CSharp}
+      data:
+        tileValue: 0
+    - rid: 1669607952040591453
+      type: {class: BoardLayoutColumn, ns: Board, asm: Assembly-CSharp}
+      data:
+        tileValue: 4
+    - rid: 1669607952040591454
+      type: {class: BoardLayoutColumn, ns: Board, asm: Assembly-CSharp}
+      data:
+        tileValue: 1
+    - rid: 1669607952040591455
+      type: {class: BoardLayoutColumn, ns: Board, asm: Assembly-CSharp}
+      data:
+        tileValue: 1
+    - rid: 1669607952040591456
+      type: {class: BoardLayoutColumn, ns: Board, asm: Assembly-CSharp}
+      data:
+        tileValue: 1
+    - rid: 1669607952040591457
+      type: {class: BoardLayoutColumn, ns: Board, asm: Assembly-CSharp}
+      data:
+        tileValue: 1
+    - rid: 1669607952040591458
+      type: {class: BoardLayoutColumn, ns: Board, asm: Assembly-CSharp}
+      data:
+        tileValue: 4
+    - rid: 1669607952040591459
+      type: {class: BoardLayoutColumn, ns: Board, asm: Assembly-CSharp}
+      data:
+        tileValue: 1
+    - rid: 1669607952040591460
+      type: {class: BoardLayoutColumn, ns: Board, asm: Assembly-CSharp}
+      data:
+        tileValue: 3
+    - rid: 1669607952040591461
+      type: {class: BoardLayoutColumn, ns: Board, asm: Assembly-CSharp}
+      data:
+        tileValue: 2
+    - rid: 1669607952040591462
+      type: {class: BoardLayoutColumn, ns: Board, asm: Assembly-CSharp}
+      data:
+        tileValue: 4
+    - rid: 1669607952040591463
+      type: {class: BoardLayoutColumn, ns: Board, asm: Assembly-CSharp}
+      data:
+        tileValue: 3
+    - rid: 1669607952040591464
+      type: {class: BoardLayoutColumn, ns: Board, asm: Assembly-CSharp}
+      data:
+        tileValue: 1

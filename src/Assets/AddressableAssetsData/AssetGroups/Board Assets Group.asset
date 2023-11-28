@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Board Assets Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Board Assets Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 7d40d229df8654cb18fc7a5b4571b1b2
+  m_SerializeEntries:
+  - m_GUID: 0e718847496914033815b11a6bcf2c52
+    m_Address: Assets/Content/Prefabs/BoardTIle_ORANGE.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 29dec33073739435fa76361994a09fd4
+    m_Address: Assets/Content/Prefabs/BoardTIle_RED.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0ecb770477a9c46c7b6b2e21602a632f
+    m_Address: Assets/Content/Prefabs/BoardTIle_BLUE.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 66dd333132034455db35387c8b34b26c
+    m_Address: Assets/Content/Prefabs/BoardTIle_YELLOW.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3b2716eb63f204829ab8fbbf97ecdcd6
+    m_Address: Assets/Content/Prefabs/BoardTIle_GREEN.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 020e9fa5ee2724ce28fb4d9b529d3a20
+    m_Address: Assets/Content/Prefabs/BoardTIle_PURPLE.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 323e0bf512c9c4eca8a2b872b9f8fe63, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 829abcd03f87645cdb30eb94e1a936cb, type: 2}
+    - {fileID: 11400000, guid: f51871cc068ad43d7a052a5ab8b28053, type: 2}
