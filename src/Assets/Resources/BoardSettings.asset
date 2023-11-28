@@ -14,8 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   width: 5
   height: 7
-  collectConnectBoardTilesDelayTime: 0.5
-  boardTileSetPositionDuration: 0.5
+  collectConnectBoardTilesDelayTime: 0.25
+  scorePointsDelayTime: 0.1
+  boardTileSetPositionDuration: 0.25
   initialBoardLayout:
     rows:
     - columns:

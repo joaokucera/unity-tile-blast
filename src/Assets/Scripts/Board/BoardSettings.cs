@@ -15,6 +15,9 @@ namespace Board
         float collectConnectBoardTilesDelayTime;
 
         [SerializeField, Range(0.1f, 1f)]
+        float scorePointsDelayTime;
+
+        [SerializeField, Range(0.1f, 1f)]
         float boardTileSetPositionDuration;
 
         [SerializeField]
@@ -23,6 +26,7 @@ namespace Board
         public int Width => width;
         public int Height => height;
         public float CollectConnectBoardTilesDelayTime => collectConnectBoardTilesDelayTime;
+        public float ScorePointsDelayTime => scorePointsDelayTime;
         public float BoardTileSetPositionDuration => boardTileSetPositionDuration;
 
         public BoardLayout InitialBoardLayout

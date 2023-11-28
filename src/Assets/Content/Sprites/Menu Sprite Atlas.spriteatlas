@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Menu Sprite Atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 22d671a1e85824073b91ffc2930d74c0, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - cb538be1a9afc4acfbd2f22a5b59f611: 21300000
+    - 785932d60c1bb4a2bbabb30b093142d9: 21300000
+    - 6e13a31991a0e491fae1a9b9836d2af2: 21300000
+    - 3de840fcb31ef4072a4edbddfa924b4c: 21300000
+    - 3a17decff6a27408dbd44e2025540efe: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: cb538be1a9afc4acfbd2f22a5b59f611, type: 3}
+  - {fileID: 21300000, guid: 785932d60c1bb4a2bbabb30b093142d9, type: 3}
+  - {fileID: 21300000, guid: 6e13a31991a0e491fae1a9b9836d2af2, type: 3}
+  - {fileID: 21300000, guid: 3de840fcb31ef4072a4edbddfa924b4c, type: 3}
+  - {fileID: 21300000, guid: 3a17decff6a27408dbd44e2025540efe, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - PlayText
+  - PlayButton
+  - Background
+  - LogoPuzzle
+  - LogoCubes
+  m_RenderDataMap: {}
+  m_Tag: Menu Sprite Atlas
+  m_IsVariant: 0

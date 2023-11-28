@@ -104,7 +104,7 @@ namespace Board
             else
             {
                 await CollectConnectedBoardTiles(connectedBoardTiles);
-                AddScore(connectedBoardTiles);
+                await AddScore(connectedBoardTiles);
                 await RearrangeBoardTiles(width, height);
                 await AddNewBoardTiles(width, height, false);
             }
@@ -173,14 +173,16 @@ namespace Board
             }
         }
 
-        void AddScore(IEnumerable<BoardTilePresenter> connectedBoardTiles)
+        async Task AddScore(IEnumerable<BoardTilePresenter> connectedBoardTiles)
         {
             foreach (var connectedBoardTile in connectedBoardTiles)
             {
                 _boardModel.CurrentScore += connectedBoardTile.GrantedPoints;
-            }
 
-            _boardSceneView.ScoreText.text = _boardModel.CurrentScore.ToString();
+                await Task.Delay(TimeSpan.FromSeconds(_boardSettings.ScorePointsDelayTime));
+
+                _boardSceneView.ScoreText.text = _boardModel.CurrentScore.ToString();
+            }
         }
 
         async Task RearrangeBoardTiles(int width, int height)

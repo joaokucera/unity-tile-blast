@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Game Sprite Atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: f96cad866917b481b9f74c9d866c7e32, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - 30dd2540f366b49b19cfc41edff2c39b: 21300000
+    - 6855c550610cc460ea1dc0a3cd3a162f: 21300000
+    - db686371c8ceb4e77884a4445142983b: 21300000
+    - 9feeed32357fa4cb0a082cf4a9ebe3ea: 21300000
+    - 8c01d252c96d146dc9051dae2dab4626: 21300000
+    - a7dee382b58c748908d139076958cc73: 21300000
+    - ec9f2092fa6274cc58e39f8c2bc1bd4f: 21300000
+    - 47096ee2eb59e4f2db8ec68d491149b4: 21300000
+    - d1f332462345e4fafbffc8ac8e3eb6e5: 21300000
+    - 333e0337bfd5243a4b68692782cf24af: 21300000
+    - 4109ace7ca10d4d0788c2da0a24d05b2: 21300000
+    - 4baaee28b125b433ebee434b53763e08: 21300000
+    - 69a1c05842fe74e12a0587bb3e8cbb74: 21300000
+    - b1c31f7cfd560477fa338ab102a1e990: 21300000
+    - 25cc8c1f863ac4cfc8cac8a7bfe03e01: 21300000
+    - cb00db8f509b848d79e764f8afe53cc0: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 30dd2540f366b49b19cfc41edff2c39b, type: 3}
+  - {fileID: 21300000, guid: 6855c550610cc460ea1dc0a3cd3a162f, type: 3}
+  - {fileID: 21300000, guid: db686371c8ceb4e77884a4445142983b, type: 3}
+  - {fileID: 21300000, guid: 9feeed32357fa4cb0a082cf4a9ebe3ea, type: 3}
+  - {fileID: 21300000, guid: 8c01d252c96d146dc9051dae2dab4626, type: 3}
+  - {fileID: 21300000, guid: a7dee382b58c748908d139076958cc73, type: 3}
+  - {fileID: 21300000, guid: ec9f2092fa6274cc58e39f8c2bc1bd4f, type: 3}
+  - {fileID: 21300000, guid: 47096ee2eb59e4f2db8ec68d491149b4, type: 3}
+  - {fileID: 21300000, guid: d1f332462345e4fafbffc8ac8e3eb6e5, type: 3}
+  - {fileID: 21300000, guid: 333e0337bfd5243a4b68692782cf24af, type: 3}
+  - {fileID: 21300000, guid: 4109ace7ca10d4d0788c2da0a24d05b2, type: 3}
+  - {fileID: 21300000, guid: 4baaee28b125b433ebee434b53763e08, type: 3}
+  - {fileID: 21300000, guid: 69a1c05842fe74e12a0587bb3e8cbb74, type: 3}
+  - {fileID: 21300000, guid: b1c31f7cfd560477fa338ab102a1e990, type: 3}
+  - {fileID: 21300000, guid: 25cc8c1f863ac4cfc8cac8a7bfe03e01, type: 3}
+  - {fileID: 21300000, guid: cb00db8f509b848d79e764f8afe53cc0, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - ExitIcon
+  - GreenItem
+  - GreenSquareButton
+  - Background
+  - BlueItem
+  - OrangeItem
+  - YellowItem
+  - RedItem
+  - Block4Particles
+  - Block5Particles
+  - Block6Particles
+  - PurpleItem
+  - Background
+  - Block1Particles
+  - Block3Particles
+  - Block2Particles
+  m_RenderDataMap: {}
+  m_Tag: Game Sprite Atlas
+  m_IsVariant: 0
